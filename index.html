@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Color Greeting Task</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+
+<h1 id="heading">Hello</h1>
+  
+  <div class="color-container">
+  <div class="color-box" onclick="changeColor(this,'red')">Red</div>
+
+  <div class="color-box" onclick="changeColor(this,'blue')">Blue</div>
+
+  <div class="color-box" onclick="changeColor(this,'green')">Green</div>
+
+  <div class="color-box" onclick="changeColor(this,'yellow')">Yellow</div>
+  <div class="color-box" onclick="changeColor(this,'violet')">Violet</div>
+</div>
+
+<div class="input-section">
+    <input type="text" id="name" placeholder="Enter your name">
+    <button onclick="greetUser()" onclick="changeColor(this,'red')">Greet</button>
+  </div>
+
+  <div id="message"></div>
+
+  <!-- JS Link -->
+  <script src="script.js"></script>
+
+</body>
+</html>
